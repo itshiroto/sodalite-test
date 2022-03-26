@@ -2,7 +2,7 @@ import './sidebar.css';
 
 function SideBtn(props) {
     return (
-        <div class="side-btn">
+        <div className="side-btn">
             <p>{props.children}</p>
         </div>
     )
@@ -11,7 +11,7 @@ function SideBtn(props) {
 function SideCopyright() {
     return (
         <div id="side-copyright">
-            <p>© 2020 by Rivo Juicer Wowor</p>
+            <p>© 2022 by Rivo Juicer Wowor</p>
             <p>All Rights Reserved</p>
         </div>
     )

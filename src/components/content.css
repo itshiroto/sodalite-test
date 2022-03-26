@@ -1,5 +1,7 @@
 #main-content {
     grid-area: content;
+    display:flex;
+    flex-direction:column;
 }
 #hotel-cover {
     display: grid;
@@ -49,7 +51,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
     color: white;
 }
 
@@ -60,4 +62,134 @@
 
 #hotel-ratingval {
     font-size: 1.5em;
+}
+
+#hotel-main {
+    padding: 30px;
+    background-color:hsl(202, 57%, 89%);
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+    font-size: 0.8em;
+}
+
+#hotel-desc {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#hotel-review {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#review-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: hsl(209, 75%, 50%);
+    cursor: pointer;
+}
+
+#review-more p {
+    border-bottom: hsl(209, 75%, 50%) 2px solid;
+    height: 2em;
+}
+
+#hotel-main p {
+    margin: 0;
+}
+
+#desc-features {
+    margin: 2em 0;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 1em;
+    border: 2px solid lightblue;
+    border-width: 2px 0 2px 0;
+}
+
+#desc-para p {
+    margin-bottom: 1em;
+}
+
+#desc-features li {
+    list-style-type: none;
+}
+
+#desc-recom {
+    display: flex;
+    justify-content: space-between;
+}
+
+#desc-recom img {
+    width: 2em;
+    height: 2em;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.review-card {
+    background-color: white;
+    padding: 30px;
+}
+
+.review-user {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 2em;
+}
+
+.user-name {
+    font-weight: 500;
+    color: hsl(209, 75%, 50%);
+}
+
+.user-rating {
+    margin-left: auto!important;
+    font-size: 1.5em;
+    color: hsl(209, 75%, 50%);
+}
+
+#hotel-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    flex: 1;
+
+}
+
+#cta-text {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#cta-btn {
+    background: rgb(177,215,237);
+    background: linear-gradient(90deg, rgba(177,215,237,1) 0%, rgba(110,161,210,1) 100%);
+    color: white;
+    padding: 0.7em 2em;
+    border: 0;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
 }
