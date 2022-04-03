@@ -1,5 +1,6 @@
 import { Icon } from '@iconify/react';
-import Logo from "../assets/rivoPog.png";
+import Logo from "../assets/korone-guino.jpg";
+import UserPic from "../assets/rivoPog.png";
 import './navbar.css';
 
 function NavbarSearch() {
@@ -16,7 +17,7 @@ function NavbarUser() {
                 <Icon icon="fa6-brands:instagram" height="24" />
             </div>
             <div id="nav-user">
-                <img src={Logo} id="user-icon" alt="User Icon"></img>
+                <img src={UserPic} id="user-icon" alt="User Icon"></img>
                 <p id="user-name">Rivo</p>
             </div>
         </div>

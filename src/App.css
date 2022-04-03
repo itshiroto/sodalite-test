@@ -1,9 +1,16 @@
 #root {
     min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 4em 1fr;
-    grid-template-areas:
-        "header header"
-        "sidebar content";
+    display:flex;
+    flex-direction: column;
+} 
+    
+#main {
+    display:flex;
+    flex: 1;
 }
+
+@media screen and (max-width: 768px) {
+    #main {
+        flex-direction: column;
+    }
+}    

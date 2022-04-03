@@ -10,9 +10,9 @@ const coverImage = {
 function HotelCover()  {
     return (
         <div id="hotel-cover">
-            <img src={coverImage.img1} alt="Hotel 1"/>
-            <img src={coverImage.img2} alt="Hotel 1"/>
-            <img src={coverImage.img3} alt="Hotel 1"/>
+            <div class="hotel-img"><img src={coverImage.img1} alt="Hotel 1"/></div>
+            <div class="hotel-img"><img src={coverImage.img2} alt="Hotel 1"/></div>
+            <div class="hotel-img"><img src={coverImage.img3} alt="Hotel 1"/></div>
         </div>
     )
 }
@@ -176,7 +176,7 @@ function HotelMain() {
 
 export default function Content() {
     const hotel = {
-        name: "Arasatu Villas & Sanctuary",
+        name: "Grand Parama Hotel",
         location: "Berau, East Kalimantan",
         rating: "4.5",
         votes: "1.5k"
