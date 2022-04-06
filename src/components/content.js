@@ -10,9 +10,9 @@ const coverImage = {
 function HotelCover()  {
     return (
         <div id="hotel-cover">
-            <div class="hotel-img"><img src={coverImage.img1} alt="Hotel 1"/></div>
-            <div class="hotel-img"><img src={coverImage.img2} alt="Hotel 1"/></div>
-            <div class="hotel-img"><img src={coverImage.img3} alt="Hotel 1"/></div>
+            <div className="hotel-img"><img src={coverImage.img1} alt="Hotel 1"/></div>
+            <div className="hotel-img"><img src={coverImage.img2} alt="Hotel 1"/></div>
+            <div className="hotel-img"><img src={coverImage.img3} alt="Hotel 1"/></div>
         </div>
     )
 }
