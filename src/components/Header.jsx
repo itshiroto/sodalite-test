@@ -15,7 +15,7 @@ export default function Header() {
         h="full" w="75%"
         variant='filled'
       />
-      <Stack direction="row" h="full" align="center" gap="5">
+      <Stack direction="row" h="full" align="center" gap="2">
         <Icon icon="fa-solid:car" height="1.4rem" />
         <Icon icon="fa-brands:instagram" height="1.4rem" />
         <Flex direction="row" h="full" gap={3}>
