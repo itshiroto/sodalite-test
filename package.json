@@ -1,5 +1,5 @@
 {
-  "name": "sodalite-test",
+  "name": "scratchpad",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -11,15 +11,14 @@
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "framer-motion": "^6.2.10",
+    "framer-motion": "^6.3.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@iconify/react": "^3.2.1",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
-    "vite": "^2.9.2"
+    "vite": "^2.9.5"
   }
 }
